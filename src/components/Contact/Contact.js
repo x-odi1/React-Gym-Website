@@ -13,9 +13,9 @@ const Contact = () => (
     </Container>
     <footer>
       <p>
-        Copyright &copy; © 2020 Training Studio - Designed by{" "}
+        Copyright &copy; © 2021 Emad Studio - Designed by{" EmadBinFaisal "}
         <a href="https://templatemo.com/" target="_blank">
-          TemplateMo
+          Rafeg
         </a>
       </p>
     </footer>

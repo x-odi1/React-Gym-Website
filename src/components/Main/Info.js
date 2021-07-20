@@ -5,11 +5,11 @@ import Button from "../GlobalComponents/Button";
 
 const Info = () => (
   <div css={styles} className="info">
-    <p>WORK HARDER, GET STRONGER</p>
+    <p>الثقافة للجميع </p>
     <h1>
-      EASY WITH OUR <span>GYM</span>
+      ديوانية <span>ال رفيق</span>  الثقافية
     </h1>
-    <Button text="BECOME A MEMBER" />
+    <Button text="إشتراك في العضوية " />
   </div>
 );
 

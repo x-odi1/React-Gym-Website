@@ -11,8 +11,8 @@ const Results = ({ training }) => (
   <div css={styles} className="results">
     {training === "FirstClass" && (
       <Output
-        title="First Training Class"
-        info="Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam."
+        title="رئيس مجلس ديوانية ال رفيق الثقافية"
+        info="رئيس مجلس إدارة ديوانية آل رفيق الثقافية رجل الأعمال والمدير العام لمجموعة محموداحمد رفيق القابضة والمشرف العام على مجموعة انوار طيبة الأستاذ محمود أحمد رفيق"
         img={ClassOneBg}
       />
     )}

@@ -10,25 +10,25 @@ const LinksContainer = ({ setTraining, training }) => (
       className={training === "FirstClass" ? "active" : ""}
       onClick={() => setTraining("FirstClass")}
     >
-      <img src={DumbbellBg} alt="dumbbell" /> First Training Class
+      <img src={DumbbellBg} alt="dumbbell" /> نخبة الديونية 
     </button>
     <button
       className={training === "SecondClass" ? "active" : ""}
       onClick={() => setTraining("SecondClass")}
     >
-      <img src={DumbbellBg} alt="dumbbell" /> Second Training Class
+      <img src={DumbbellBg} alt="dumbbell" /> رواد الديونية
     </button>
     <button
       className={training === "ThirdClass" ? "active" : ""}
       onClick={() => setTraining("ThirdClass")}
     >
-      <img src={DumbbellBg} alt="dumbbell" /> Third Training Class
+      <img src={DumbbellBg} alt="dumbbell" /> أعضاء الديونية
     </button>
     <button
       className={training === "FourthClass" ? "active" : ""}
       onClick={() => setTraining("FourthClass")}
     >
-      <img src={DumbbellBg} alt="dumbbell" /> Fourth Training Class
+      <img src={DumbbellBg} alt="dumbbell" /> أعضاء الشرف
     </button>
     <Button text="View All Schedules" />
   </div>

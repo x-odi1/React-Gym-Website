@@ -8,7 +8,7 @@ import GymProgramCard from "./GymProgramCard";
 import Container from "../GlobalComponents/Container";
 
 const GymProgram = () => (
-  <div css={styles} className="gymProgram">
+  <div css={styles} className="برامجنا">
     <GymTitle />
     <Icon />
     <GymSubtitle />

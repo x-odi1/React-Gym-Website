@@ -7,14 +7,13 @@ import GymOverlayBg from "../Image/gymOverlayBg.jpg";
 const Member = ({ text }) => (
   <section css={styles} className="member">
     <h2>
-      DON’T <span>THINK</span>, BEGIN <span>TODAY</span>!
+      لا <span>تجعل</span>, شيء <span>يوقفك</span>!
     </h2>
     <p>
-      Ut consectetur, metus sit amet aliquet placerat, enim est ultricies
-      ligula, sit amet dapibus odio augue eget libero.
-      <br /> Morbi tempus mauris a nisi luctus imperdiet.
+      المساهمة في خدمة المجتمع
+      <br /> المدينة المنورة 
     </p>
-    <Button text="BECOME A MEMBER" />
+    <Button text="الحصول على عضوية" />
   </section>
 );
 

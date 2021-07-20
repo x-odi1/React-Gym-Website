@@ -6,14 +6,16 @@ import Button from "../GlobalComponents/Button";
 
 const LinksContainer = ({ hidden }) => {
   return (
-    <div css={styles} className={(hidden ? "hidden" : "") + " linksContainer"}>
-      <Link name="HOME" linkTo="#home" />
-      <Link name="ABOUT" linkTo="#trainers" />
-      <Link name="CLASSES" linkTo="#ourClasses" />
-      <Link name="SCHEDULES" linkTo="#schedule" />
-      <Link name="CONTACT" linkTo="#contact" />
-      <Button text="SIGN UP" />
-    </div>
+   <div css={styles} className={(hidden ? "hidden" : "") + " linksContainer"}>
+      <Link name="الرئسية" linkTo="#home" />
+      <Link name="عنا" linkTo="#trainers" />
+      <Link name="ندوات" linkTo="#ourClasses" />
+      <Link name="الجدول" linkTo="#schedule" />
+      <Link name="تواصل معنا" linkTo="#contact" />
+      <Link name="الأخبار" linkTo="#contact" />
+
+      <Button text="تسجيل الدخول" />
+    </div> 
   );
 };
 

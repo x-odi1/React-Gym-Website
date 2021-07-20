@@ -12,13 +12,13 @@ const Classes = ({ text }) => {
   return (
     <section css={styles} className="ourClasses" id="ourClasses">
       <h2>
-        OUR <span>CLASSES</span>
+        أعضاء <span>الديوانية</span>
       </h2>
       <Icon />
       <p>
-        Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra
+        شاريكنا النجاح
         <br />
-        ipsum dolor, ultricies fermentum massa consequat eu.
+         الريادة في القيادة
       </p>
       <Container>
         <LinksContainer setTraining={setTraining} training={training} />
